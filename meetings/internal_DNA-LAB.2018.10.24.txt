@@ -58,7 +58,7 @@ Q : Does this fulfill our obiligations to the protocol ?
 - Se DINA as the 'master' when it comes to information on Specimens - See Group-C - and see SeqDB as 'slave'
 - - or DINA is 'the source of truth, when it comes to specimens' (export DwC-A from DINA, import DwC-A to SeqDB ?)
 - Light integration, 'there are samples' and 'there are NO samples' .... if samples, a link to SeqDB (ask R for credentials) - one 'guest-user' with read-rights ? or a link to the public portal ?
-- Not-so-light integratin -> 
+- Not-so-light integration -> 
 -- 
 
 
