@@ -1,0 +1,66 @@
+Agenda: For the DNA-LAB
+System = SeqDB, version = Version 3.18-SNAPSHOT 
+
+1. Admin account: Users and Groups
+1.1 Project Account
+2. Public Portal
+3. ABS : The Nagoya Protocol on Access and Benefit-Sharing
+4. Bulk editing ?
+5. -> The test-machine at digitalocean , health ? - Solution , IngiErli checks!
+6. Future : Integration with Dina 
+
+*************************************************************************
+
+1.A Administration. Users 
+
+There are different account types today : Admin, User, Guest.
+Question 1 : on constraining users:
+- Could we restrict User and/or Guest to only read-mode ?
+Solution = We/RodrEspa - can try this out
+
+Question 2 : User or Guest with Read-Write rights.
+- can a 'User'  import files, can they bulk-edit files through export/import of excel ?
+Solution = We/RodrEspa - can try this out
+
+Todo -> Add users to the system(4 Users = Bo+Ve+Ra+Jo), have 2 administrators (R and M)
+
+1.B Administration and Groups.
+Suggestion:
+- A) DNA-collection or DNA-Samlingen (Voucher-number, from the museum)
+- B) CGI-collection or DNA-Samlingen (NON-voucher , temporary -> could become a 'voucher number')
+- C) Work-collection or Work-Samlingen (temporary)
+- - Different researchers, 1 'Work-Collection' for each researcher ?
+
+Solution = We/RodrEspa - can try this out
+
+1.1 Project.
+- 'Project and Reporting' - Link
+- the purpose is to be able to report, graphs
+- 'Add a new project' -> 
+'Group Options' + 'Project-Name' + 'Parent Project' + 'Project Status' + 'Project Details' + 'Source of Funding' + 'Duration from' - 'to' + 'Project Description' 
+Every Collectoin; A,B,C could have 0 or more Projects.
+
+2. Public Portal  (https://seqpublic.nrm.se/)
+- Is everything visible from the SeqDB now ?
+- - we should be able to have a boolean flag 'public'/'not public' - becoming visible/not visible in the portal
+
+3. ABS
+- we are able to add an attachment to every specimens
+- - we tested to add 2 PDF-documents to the Collection Code = 'MOSS' with Specimen Identifier = 96.
+Q : Does this fulfill our obiligations to the protocol ?
+
+4. Problems with the bulk-editing now, did we choose the correct importer ?
+- we need a short guide to explain ...
+
+5. Needs a check ...
+
+6. Future : Integration with Dina - postpone
+- Se DINA as the 'master' when it comes to information on Specimens - See Group-C - and see SeqDB as 'slave'
+- - or DINA is 'the source of truth, when it comes to specimens' (export DwC-A from DINA, import DwC-A to SeqDB ?)
+- Light integration, 'there are samples' and 'there are NO samples' .... if samples, a link to SeqDB (ask R for credentials) - one 'guest-user' with read-rights ? or a link to the public portal ?
+- Not-so-light integratin -> 
+-- 
+
+
+
+
