@@ -33,23 +33,23 @@ HTTPS
 - the lock is now yellow due to the map, how can this be fixed
 
 
+Mobile-version ?
+
+
 ## new functionality
 
 Discussion with Thomas K, 20180406
 
-        1. Ändring av URL
-        2. Lägga till en länk som heter 'about'/'om ( placeras till vänster om språk-versionen)
-            1. Här ska det finnas kort information om vad detta är (Spilling ... )
-            2. Thomas hade en kort och bra sammanfattning : ska skrivas både på Engelska och Svenska
-        3. Ändring av Layout: 
-            1. lägga de två ikonerna 'nrm' & 'naturvårdsverket' i headern 
-                1. till höger om språkversionen ?
-            2. Varför ? ikonerna blir mer tydliga och ännu mer tydliga om man använder mobilen ...
-        4. Byta ut 'SeqDb portal' till något annat ? 
+        1. Add  'about'/'om (layout: left of the language-links)
+            1. Here there should be short info of what this portal is (Spilling ... )
+            2. Thomas had a short summary : both in English and in Swedish
+        2. Layout-changes:
+            1. Move the 2 icons from footer  'nrm' & 'naturvårdsverket' to the header
+                1. top right corner ?
+            2. reason ? The icons are more visible, and even more visible on the mobile
+        3. Byta ut 'SeqDb portal' till något annat ( left corner, html-title ) ? 
             1. Färgschemat : Ändra färgen på headern ?
-            2. Kollar ni igenom översättningen ?
-        5. Funktioner : 
+        4. Funktioner :  (Fråga Thomas)
             1. en on/off-toggle - visa spilling/visa individuella björnar ?
-        6. Om man kan använda något fält på de olika posterna ( det finns ett fält som heter 'restricted' som kan togglas mellan true och false - om false så kan man inte söka på detta ? )
-        7. Diskussion om vad det innebär att denna sida är publik 
-            1. något ni vill diskutera med Naturvårdsverket ?
+        5. Om man kan använda något fält på de olika posterna ( det finns ett fält som heter 'restricted' som kan togglas mellan true och false - om false så kan man inte söka på detta ? )
+
