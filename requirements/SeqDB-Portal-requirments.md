@@ -37,8 +37,6 @@ HTTPS
 
 Discussion with Thomas K, 20180406
 
-Några punkter som jag och Thomas diskuterade, vissa av dessa kan bli krav ?
-    1. publika gränssnittet 
         1. Ändring av URL
         2. Lägga till en länk som heter 'about'/'om ( placeras till vänster om språk-versionen)
             1. Här ska det finnas kort information om vad detta är (Spilling ... )
