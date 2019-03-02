@@ -1,0 +1,1 @@
+Wishlist for the improvements on SeqDB : -  from the CGI-unit
