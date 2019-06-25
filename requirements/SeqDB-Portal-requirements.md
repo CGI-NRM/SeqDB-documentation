@@ -46,6 +46,14 @@ The Result-table:
     1. the search-field 'Stad/Region' should be replaced with 'Stad/Län' ( i.e Strömsund/Jämtland)
     2. the result-table should reflect that searchfield : either 'region' or 'provins' should be visible and renamed to 'Län'
 
+Buttons:
+
+    1. the 'clear'-button should clear; All the fields + the result-table+ reset the url to the orginal
+  
+ Mailaddress:
+ 
+    1. mailaddress to to cgi (to ask for genotypes)
+    
 ***
 
 ## Introduction (after testing the “3.17-SNAPSHOT”) 
