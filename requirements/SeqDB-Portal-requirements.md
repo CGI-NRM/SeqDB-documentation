@@ -28,6 +28,16 @@ Layout
 
 4. Questions : Is paging possible, if our results are greater than x ( for instance 100 records ) ?
 
+### Non-Functional requirements 
+
+Search functionality:
+
+    1. Should be possible to search for ‘arctos’ 
+    2. When 'Swedish' is chosen :  Should be possible to search for the vernacular name - 'Björn' (upper- and lowercase)
+    3. When 'English' is chosen :  Should be possible to search for the vernacular name - 'Bear' (upper- and lowercase)
+
+***
+
 ## Introduction (after testing the “3.17-SNAPSHOT”) 
 The below suggestion are written after testing the “3.17-SNAPSHOT”<p>
 The public-UI is using the database from SeqDB.
