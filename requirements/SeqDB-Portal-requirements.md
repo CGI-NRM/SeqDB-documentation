@@ -30,11 +30,21 @@ Layout
 
 ### Non-Functional requirements 
 
-Search functionality:
+Search functionality species:
 
     1. Should be possible to search for ‘arctos’ 
     2. When 'Swedish' is chosen :  Should be possible to search for the vernacular name - 'Björn' (upper- and lowercase)
     3. When 'English' is chosen :  Should be possible to search for the vernacular name - 'Bear' (upper- and lowercase)
+
+Search functionality 'city/region': 
+
+    1.Should be possible to search for city : ‘Strömsund’ and ‘Strömsund (S)’.
+    2. Should be possible to search for region: 'Jämtlands län' or 'Jämtlands län (S)'
+    
+The Result-table:
+
+    1. the search-field 'Stad/Region' should be replaced with 'Stad/Län' ( i.e Strömsund/Jämtland)
+    2. the result-table should reflect that searchfield : either 'region' or 'provins' should be visible and renamed to 'Län'
 
 ***
 
