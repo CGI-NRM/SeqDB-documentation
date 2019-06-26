@@ -1,8 +1,62 @@
 # Public UI for the SeqDB
 https://seqpublic.nrm.se/
 
+## First set of requirements
 
-## Introduction
+### Non-Functional requirements
+
+Start with a capital letter: 
+
+1. That every word starts with a capital letter .
+2. Example:  "Taxonomy : Species" - and so forth.
+
+Mouse-over:
+1. To have a 'mouse-over'-functionality over (wgs84) that says 'epsg:3006'
+
+@Info
+here is more on epsg -> http://epsg.io/?q=swede
+
+Providing 2 example of latitude and longitude positions:
+1. See the page : http://www.ensembl.org
+2. The example provided for ‘Search’ , one can click on of the 4 different links.
+3. An example for seqdb_public could be a position in Sweden, for instance the ‘City Hall’ in Stockholm (https://en.wikipedia.org/wiki/Stockholm_City_Hall)
+
+Layout
+1. We would like to customize/brand the page with for instance with a 'header' and a 'footer' You can see the footer in www.naturforskaren.se , where we have put x number of logos and contact-information.
+
+2. Ability to Switch between British-English and Swedish ? (we can do the translation). Use of a ‘flag’-icon (flag of ‘Great-Britain’ and the Swedish flag ) ?
+
+4. Questions : Is paging possible, if our results are greater than x ( for instance 100 records ) ?
+
+### Non-Functional requirements 
+
+Search functionality species:
+
+    1. Should be possible to search for ‘arctos’ 
+    2. When 'Swedish' is chosen :  Should be possible to search for the vernacular name - 'Björn' (upper- and lowercase)
+    3. When 'English' is chosen :  Should be possible to search for the vernacular name - 'Bear' (upper- and lowercase)
+
+Search functionality 'city/region': 
+
+    1.Should be possible to search for city : ‘Strömsund’ and ‘Strömsund (S)’.
+    2. Should be possible to search for region: 'Jämtlands län' or 'Jämtlands län (S)'
+    
+The Result-table:
+
+    1. the search-field 'Stad/Region' should be replaced with 'Stad/Län' ( i.e Strömsund/Jämtland)
+    2. the result-table should reflect that searchfield : either 'region' or 'provins' should be visible and renamed to 'Län'
+
+Buttons:
+
+    1. the 'clear'-button should clear; All the fields + the result-table+ reset the url to the orginal
+  
+ Mailaddress:
+ 
+    1. mailaddress to to cgi (to ask for genotypes)
+    
+***
+
+## Introduction (after testing the “3.17-SNAPSHOT”) 
 The below suggestion are written after testing the “3.17-SNAPSHOT”<p>
 The public-UI is using the database from SeqDB.
 
