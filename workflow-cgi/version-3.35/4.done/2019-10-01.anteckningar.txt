@@ -1,0 +1,7 @@
+2 plattor för CGI , ej uppladdade till prod ännu.
+
+4.1-595-2018
+5.1.5-636-2019
+NRM-CGI_ZOO
+
+
