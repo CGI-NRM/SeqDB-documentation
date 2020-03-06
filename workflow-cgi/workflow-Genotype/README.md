@@ -6,6 +6,9 @@
 
 The attributes are {Postion, Tube, Container Name, labid*} <p>
 
+1. Postion, Tube, Container Name comes from the tracx scanner file and is
+   exported as a .csv file.
+2. Labid needs to be added manually
 
 
 | Postion       | Tube           | Container Name   | labid*|
@@ -15,8 +18,9 @@ The attributes are {Postion, Tube, Container Name, labid*} <p>
 
 
 ## 1-scanner-sepnr (4 attributes +1 attributes)
- 
-The new attributes is  {sepnr*} <p>
+
+The new attributes is {sepnr*} that can be found at the tube with
+scat that arrived at NRM. <p>
 
 
 | Postion       | Tube           | Container Name   | labid*| sepnr*|
@@ -28,7 +32,7 @@ The new attributes is  {sepnr*} <p>
 
 ## 2-genotype (5 attributes +16 attributes )
 
-The new attributes are {MU09-1,MU09-2,MU10-1,MU10-2,MU05-1,MU05-2,MU23-1,MU23-2,MU51-1,MU51-2,MU59-1,MU59-2,G10L-1,G10L- 2,MU50-1,MU50-2} <p>
+Genotyping result from the analysis is added. The new attributes are {MU09-1,MU09-2,MU10-1,MU10-2,MU05-1,MU05-2,MU23-1,MU23-2,MU51-1,MU51-2,MU59-1,MU59-2,G10L-1,G10L- 2,MU50-1,MU50-2} <p>
 
 
 
