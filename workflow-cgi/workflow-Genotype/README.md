@@ -1,4 +1,5 @@
 # Steps
+
 **Building the SeqDB-import file -> Steps 1 to 6.**
 
 ## 0-scanner-labid (4 attributes)
@@ -80,5 +81,6 @@ The new attributes are {Species, Sex, date, Latitude (WGS84), Longitude (WGS84),
 
 
 ## 6-imported
+The final step, save the imported file in this folder
 
 
