@@ -1,6 +1,5 @@
 # Steps
-**
-Building the SeqDB-import file -> Steps 1 to 6.**
+**Building the SeqDB-import file -> Steps 1 to 6.**
 
 ## 0-scanner-labid (4 attributes)
 
