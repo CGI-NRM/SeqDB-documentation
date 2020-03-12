@@ -6,12 +6,12 @@
 
 The attributes are {Postion, Tube, Container Name, labid*} <p>
 
-1. Postion, Tube, Container Name comes from the tracx scanner file and is
+1. Position, Tube, Container Name comes from the tracx scanner file and is
    exported as a .csv file.
 2. Labid needs to be added manually
 
 
-| Postion       | Tube           | Container Name   | labid*|
+| Position       | Tube           | Container Name   | labid*|
 | ------------- |:-------------:| -----:|-----:|
 | A01     | 4025804078 | 3000142931 | x1 | 
 | A02     | 4025804079 | 3000142931 | x2 | 
@@ -23,7 +23,7 @@ The new attributes is {sepnr*} that can be found at the tube with
 scat that arrived at NRM. <p>
 
 
-| Postion       | Tube           | Container Name   | labid*| sepnr*|
+| Position       | Tube           | Container Name   | labid*| SEP*|
 | ------------- |:-------------:| -----:|-----:|-----:|
 | A01     | 4025804078 | 3000142931 | x1 | sep1234567 |
 | A02     | 4025804079 | 3000142931 | x2 | sep1234568 | 
@@ -36,7 +36,7 @@ Genotyping result from the analysis is added. The new attributes are {MU09-1,MU0
 
 
 
-| Postion       | Tube           | Container Name   | labid*| sepnr*| MU09-1       |  MU09-2            | MU10-1   | MU10-2  | MU05-1   | MU05-2  | MU23-1 | MU23-2 | MU51-1   | MU51-2  | MU59-1 | MU59-2  |
+| Position       | Tube           | Container Name   | labid*| SEP*| MU09-1       |  MU09-2            | MU10-1   | MU10-2  | MU05-1   | MU05-2  | MU23-1 | MU23-2 | MU51-1   | MU51-2  | MU59-1 | MU59-2  |
 | ------------- |:-------------:| -----:|-----:|-----:| ------------- |:-------------:| -----:|-----:| -----:   | -----: | -----:      |  -----:| -----:  | -----: | -----: | -----: |
 | A01     | 4025804078 | 3000142931 | x1 | sep1234567 | 104 | 116 | 135 | 151 | 125   | 125  |0  |  0 | 0   | 0 | 0 | 0 |
 | A02     | 4025804079 | 3000142931 | x2 | sep1234568 | 116 | 120 | 151 | 151 | 127   | 127  |0  |  0 | 0   | 0 | 0 | 0 |
@@ -47,7 +47,7 @@ Genotyping result from the analysis is added. The new attributes are {MU09-1,MU0
 The new attributes are {Species, Sex, date, Latitude (WGS84), Longitude (WGS84), Municipal, County}<p>
 
 
-| Postion       | Tube           | Container Name   | labid*| sepnr*| MU09-1       |  MU09-2            | MU10-1   | MU10-2  | MU05-1   | MU05-2  | MU23-1 | MU23-2 | MU51-1   | MU51-2  | MU59-1 | MU59-2  |
+| Position       | Tube           | Container Name   | labid*| SEP*| MU09-1       |  MU09-2            | MU10-1   | MU10-2  | MU05-1   | MU05-2  | MU23-1 | MU23-2 | MU51-1   | MU51-2  | MU59-1 | MU59-2  |
 | ------------- |:-------------:| -----:|-----:|-----:| ------------- |:-------------:| -----:|-----:| -----:   | -----: | -----:      |  -----:| -----:  | -----: | -----: | -----: |
 | A01     | 4025804078 | 3000142931 | x1 | sep1234567 | 104 | 116 | 135 | 151 | 125   | 125  |0  |  0 | 0   | 0 | 0 | 0 |
 | A02     | 4025804079 | 3000142931 | x2 | sep1234568 | 116 | 120 | 151 | 151 | 127   | 127  |0  |  0 | 0   | 0 | 0 | 0 |
@@ -63,7 +63,7 @@ The new attributes are {Species, Sex, date, Latitude (WGS84), Longitude (WGS84),
 
 
 
-| Postion       | Tube           | Container Name   |  MU09-1       |  MU09-2            | MU10-1   | MU10-2  | MU05-1   | MU05-2  | MU23-1 | MU23-2 | MU51-1   | MU51-2  | MU59-1 | MU59-2  |
+| Position       | Tube           | Container Name   |  MU09-1       |  MU09-2            | MU10-1   | MU10-2  | MU05-1   | MU05-2  | MU23-1 | MU23-2 | MU51-1   | MU51-2  | MU59-1 | MU59-2  |
 | ------------- |:-------------:| -----:|-----:| :-------------:| -----:|-----:| -----:   | -----: | -----:      |  -----:| -----:  | -----: | -----: | -----: |
 | A01     | 4025804078 | 3000142931 | 104 | 116 | 135 | 151 | 125   | 125  |0  |  0 | 0   | 0 | 0 | 0 |
 | A02     | 4025804079 | 3000142931 | 116 | 120 | 151 | 151 | 127   | 127  |0  |  0 | 0   | 0 | 0 | 0 |
