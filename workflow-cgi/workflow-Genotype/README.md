@@ -6,7 +6,7 @@
 
 The attributes are {Postion, Tube, Container Name, labid*} <p>
 
-1. Postion, Tube, Container Name comes from the tracx scanner file and is
+1. Position, Tube, Container Name comes from the tracx scanner file and is
    exported as a .csv file.
 2. Labid needs to be added manually
 
